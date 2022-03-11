@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.unicon.iam</groupId>
+    <artifactId>duo-client</artifactId>
+    <version>0.2.2</version>
+    <packaging>jar</packaging>
+
+    <name>Duo Security API client</name>
+    <description>Two Factor Authentication API Client</description>
+
+    <repositories>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>org.json</artifactId>
+            <version>chargebee-1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>2.3.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+</project>
